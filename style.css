@@ -1,98 +1,23 @@
-body{
+body * {
     font-family: 'Roboto', sans-serif;
-
 }
 
-header{
-    background: url(bg-footer.png);
-    object-fit: cover;
-
-    
+.logo-principal{
+    display: block;
+    margin: 0px auto;
+    height: 100px;
+    width: 100px;
 }
 
-.menu{
-    width: 100%;
-    height: 100%;
+nav ul {
     display: flex;
-    justify-content: space-between;
-    
-    
-}
-
-.logo img {
-    width: 120px;
-    padding-top: 15px;
-    margin-left: 50px;
-    transition-delay: 0.9;
-
-}
-
-.menu a{
-    text-decoration: none;
-}
-
-.menu li{
-    display: grid;
-    grid-template-columns: auto;
-    
-   
-
-}
-
-.menu ul{
-    padding-top: 55px;
-    margin-right: 70px;
-}
-
-.inicio {
-    text-align: center;
-    margin: 50px 50px 50px 50px;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-self: center;
     
 }
 
-.inicio h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 50px;
-}
-
-.inicio p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    text-align: justify;
-
-}
-
-.historia {
-    text-align: center;
-    margin: 50px 50px 50px 50px;   
-}
-
-.historia h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 50px;  
-}
-
-.historia p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    text-align: justify;
-}
-
-.video {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-footer img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-footer h4{
+.menu-navegacao {
     display: flex;
 }
+

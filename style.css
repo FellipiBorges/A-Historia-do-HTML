@@ -2,6 +2,11 @@ body * {
     font-family: 'Roboto', sans-serif;
 }
 
+ .menu-principal {
+    background-color: #140f0d;
+    padding-bottom: 10px;
+ }
+
 .logo-principal{
     display: block;
     margin: 0px auto;
@@ -21,3 +26,13 @@ nav ul {
     display: flex;
 }
 
+footer {
+    background-color: #140f0d;
+    padding-bottom: 50px;
+}
+
+h4 {
+    padding-top: 10px;
+    text-align: center;
+    color: #d4a6fa;
+}

@@ -3,10 +3,15 @@ body * {
     
 }
 
+body {
+    background-image: linear-gradient(to top right ,#8274dc,#d4a6fa);
+}
+
 main * {
     margin: auto 10px auto 10px;
     text-align: justify;
     font-size: 16px;
+    
 }
 
  .menu-principal {
@@ -17,22 +22,26 @@ main * {
 
 .logo-principal{
     display: block;
-    margin: 0px auto;
+    margin: 0px auto 5px;
     height: 100px;
     width: 100px;
+    background: url(C:\Users\fellipi.borges\Documents\Alura\Site para praticar\logo.png);
 }
 
 .menu-navegacao {
     display: flex;
-    
-
 }
 
 nav ul {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around;
-    align-self: center;  
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d4a6fa;
+    text-transform: uppercase;
+    font-weight: bolder
 }
 
 main h2, h3 {

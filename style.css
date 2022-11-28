@@ -24,6 +24,7 @@ main * {
 .logo-principal{
     display: block;
     margin: 0px auto 5px;
+    padding-top: 10px;
     height: 100px;
     width: 100px;
     background: url(C:\Users\fellipi.borges\Documents\Alura\Site para praticar\logo.png);

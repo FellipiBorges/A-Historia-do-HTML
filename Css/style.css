@@ -82,13 +82,15 @@ main h2, h3 {
 
 .Tim-Berners {
     min-width: 20px;
-    max-width: 100px;
+    max-width: 120px;
     float: left;
 }
+
 
 .middle-main {
     min-width: 20px;
     max-width: 100px;
+    float: left;
 }
 
 p{
@@ -187,5 +189,6 @@ h4 {
         font-weight: bolder
     }
     
+
 
 }

@@ -81,8 +81,14 @@ main h2, h3 {
 }
 
 .Tim-Berners {
-    width: 10%;
-    position: relative;
+    min-width: 20px;
+    max-width: 100px;
+    float: left;
+}
+
+.middle-main {
+    min-width: 20px;
+    max-width: 100px;
 }
 
 p{
@@ -141,6 +147,13 @@ h4 {
     .div-footer img {
         width: 9%;
     }
+
+    nav a {
+        text-decoration: none;
+        color: #140520;
+        text-transform: uppercase;
+        font-weight: bolder
+    }
     
 
 }
@@ -165,6 +178,13 @@ h4 {
 
     .div-footer img {
         width: 15%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #140520;
+        text-transform: uppercase;
+        font-weight: bolder
     }
     
 

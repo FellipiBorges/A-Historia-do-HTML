@@ -100,12 +100,25 @@ p{
 footer {
     background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
     padding-bottom: 50px;
+    text-align: center;
     
 }
 
 h4 {
+    display: block;
     padding-top: 50px;
+    padding-bottom: 10px;
     text-align: center;
     color: #d4a6fa;
     text-shadow: 5px 5px 5px #d4a6fa;
+    border-bottom: 1px solid #d4a6fa;
 }
+
+
+
+.div-footer img{
+    margin: 10px 50px 10px 50px;
+    width: 10%;
+}
+
+

@@ -20,15 +20,14 @@ main * {
     
 }
 
+main h2, h3{
+    font-weight: bolder;
+}
+
  .menu-principal {
     background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
     padding-bottom: 10px;
-
     width: 100%;
-
-
-    
-    
 }
 
 .logo-principal{
@@ -52,7 +51,7 @@ main * {
 	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
 	flex: 1;
 	text-align: center;
-	font-size: 1.5em;
+	
 }
 
 a:hover{
@@ -86,15 +85,11 @@ p{
 .video {
     text-align: center;
     margin: 10px auto 10px auto;
-
-    
 }
 
 .video p {
     text-align: center;
     margin: 25px auto 10px auto;
-    overflow: hidden;
-    
 }
 
 footer {
@@ -121,4 +116,48 @@ h4 {
     width: 10%;
 }
 
+@media only screen and (max-device-width: 439px) {
+    
+    main h2, h3{
+        font-weight: bolder;
+        text-align: left;
+        margin: 10px 10px 10px 10px;
+        
+    }
 
+    .video {
+        display: none;
+        
+    }
+
+    .div-footer img {
+        width: 9%;
+    }
+    
+
+}
+
+@media only screen and (max-device-width: 28) {
+
+    .item {
+        font-size: 2px;
+    }
+    
+    main h2, h3{
+        font-weight: bolder;
+        text-align: left;
+        margin: 10px 10px 10px 10px;
+        
+    }
+
+    .video {
+        display: none;
+        
+    }
+
+    .div-footer img {
+        width: 15%;
+    }
+    
+
+}

@@ -7,6 +7,12 @@ body {
     background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
 }
 
+header {
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+
 main * {
     margin: auto 10px auto 10px;
     text-align: justify;
@@ -17,6 +23,10 @@ main * {
  .menu-principal {
     background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
     padding-bottom: 10px;
+
+    width: 100%;
+
+
     
     
 }
@@ -27,7 +37,7 @@ main * {
     padding-top: 10px;
     height: 100px;
     width: 100px;
-    background: url(C:\Users\fellipi.borges\Documents\Alura\Site para praticar\logo.png);
+    background: url(C:\Users\fellipi.borges\Documents\Alura\Site-para-praticar\logo.png);
 }
 
 .menu-navegacao {
@@ -77,7 +87,7 @@ p{
 .video p {
     text-align: center;
     margin: 25px auto 10px auto;
-
+    overflow: hidden;
     
 }
 
